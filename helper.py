@@ -27,7 +27,7 @@ def split(source, dest_folder, write_size):
         partnum += 1
  
         # Create a new file name
-        filename = os.path.join(dest_folder, ('part{0:05d}'.format(partnum)))
+        filename = os.path.join(dest_folder, ('part{0:05d}.chunk'.format(partnum)))
  
         # Create a destination file
         dest_file = open(filename, 'wb')
