@@ -113,7 +113,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/join
-/split
-
 /.vscode
